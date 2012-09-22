@@ -4,6 +4,7 @@ permalink: pretty
 
 # Booleans for HTML
 disqus: true
+analytics: true
 
 # For RSS
 name: Gaurav Mali
