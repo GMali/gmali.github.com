@@ -211,6 +211,7 @@ footer{margin:0 auto; font-size:20px; margin-bottom:30px;}
 
 
 em{font-style: italic;}
+img.rss{float: none!important; border: none!important; padding: 0px!important; margin:0px 0px 0px 5px!important; width: 12px!important}
 
 /*** dont change! */
 
