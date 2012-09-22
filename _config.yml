@@ -1,5 +1,11 @@
 pygments: true
 markdown: rdiscount
 permalink: pretty
-#destination: ../Gmali/
+
+# Booleans for HTML
 disqus: true
+
+# For RSS
+name: Gaurav Mali
+description: Personal website of a software engineering undergrad at University of Waterloo
+url: http://gauravmali.com
