@@ -1,0 +1,41 @@
+---
+layout: default
+thoughts: true
+---
+<div id="main" role="main" class="sub">
+      <div id="left" class="blog" style="width:100%">
+        <h1 class="single tk-adelle">{{ page.title }}</h1>            
+        <div class="meta">
+          <p>Author: <span class="blue">{{ page.author }}</span>  |  Date: <span class="orange">{{ page.date | date_to_long_string }}</span></p>          
+        </div>
+          
+        <div class="post">                    
+          {{ content }}
+        </div>
+
+        <div class="post">
+          <h3>Another interesting thought:   {% assign no_post = true %}{% for post in site.related_posts %} {% if post.layout == 'post' and no_post == true %}<a href="{{ post.url }}">{{ post.title }}</a> {% assign no_post = false %}{% endif %} {% endfor %} </h3>
+
+          <h2></h2>
+        </div>
+
+        {% if site.disqus %}
+        <div id="comments">
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+              var disqus_shortname = 'gauravmali'; // required: replace example with your forum shortname
+
+              /* * * DON'T EDIT BELOW THIS LINE * * */
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+        {% endif %}
+    
+      </div>
+    </div>

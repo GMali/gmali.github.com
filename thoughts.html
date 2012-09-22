@@ -1,0 +1,28 @@
+---
+layout: default
+title: Thoughts - The tenants of my mind.
+description: The tenants of my mind.
+thoughts: true
+---
+
+<div id="main" role="main" class="sub">
+        <div id="content" class="sub">
+          <h1 class="tk-adelle">{{ page.title }}</h1>
+          <h2>Children of my <span class="blue">observations</span> and <span class="orange">experiences</span></h2>
+
+          <div id="thoughts">
+            {% for post in site.posts %}
+              {% if post.layout == 'post' %}
+                <div class="post">
+                  <h2 class="tk-adelle sub">
+                    <a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a>
+                  </h2>
+                  <div class="meta">
+                    <p>Author: <span class="blue">{{ post.author }}</span>  |  Date: <span class="orange">{{ post.date | date_to_long_string }}</span></p>
+                  </div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>

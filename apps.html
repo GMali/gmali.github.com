@@ -1,0 +1,29 @@
+---
+layout: default
+title: Apps - Some of the projects I'm proud of.
+description: Some of the projects I'm proud of.
+apps: true
+---
+
+<div id="main" role="main" class="sub">
+        <div id="content" class="sub">
+          <h1 class="tk-adelle">{{ page.title }}</h1>
+          <h2>Dating from January 2012 - <span class="blue">Present</span></h2>
+          
+          <div id="apps">
+            {% for post in site.posts %}
+              {% if post.layout == 'app' %}
+                <div class="post">                  
+                  <h2 class="tk-adelle sub">
+                    <a href="{{ post.url }}" rel="bookmark" title="{{ post.title }}">{{ post.title }}</a>
+                  </h2>
+                </div>            
+              {% endif %}
+            {% endfor %}
+            <div class="post">              
+              <h3 class="tk-adelle sub">I also have an <a href="http://github.com/Gmali"><span class="blue">github</span></a> account, if you wish to look through some code</h3>
+            </div>
+          </div>
+          
+        </div>
+      </div>
