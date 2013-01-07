@@ -9,6 +9,7 @@
     <title>Gaurav Mali: {% if page.title %}{{ page.title }} {% endif %}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}"> {% endif %}
     <meta name="author" content="Gaurav Mali">
+    <meta name="DC.Creator" content="Gaurav Mali">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="/css/style.css">
@@ -22,8 +23,8 @@
   <body class="tk-depot-new">
     <div id="fb-root"></div>
     <div id="container">
-      <header>
-        <a href="/" title="Gaurav Mali" class="logo"><img alt="Gaurav Mali" src="/img/logo.png" /></a>
+      <header class="vcard">
+        <a class="url fn" href="/" title="Gaurav Mali" class="logo"><img alt="Gaurav Mali" src="/img/logo.png" /></a>
         <nav>
           <ul>
             <li class="thoughts"><a {% if page.thoughts %}class="current"{% endif %} href="/thoughts/" title="Thoughts"> Thoughts</a></li>
