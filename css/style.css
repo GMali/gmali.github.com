@@ -165,7 +165,7 @@ header, #main{overflow:hidden; border-bottom: solid 2px #a0a0a0; height:80px;}
 
 	.post{margin:60px 0 0 0; }
 	.post img{float:left; margin-right:20px; width:95%;}
-	.apps .post img{width:200px;}
+	.apps .post img.small{width:200px;}
 	.post p{font-size:18px; line-height:36px; color:#333; letter-spacing:0.1em;}
 	.meta{margin-bottom:20px;}
 
@@ -252,7 +252,6 @@ img.rss{float: none!important; border: none!important; padding: 0px!important; m
 	#social ul{margin-left: 1em;}
 	#main h1 {font-size: 32px!important;line-height: 48px!important;margin-top: 10px!important;}
 	#main h2 {font-size: 20px!important;line-height: 30px!important;}
-	.item.skedulr{margin-left: 16px;}
 }
 
 @media only screen and (min-width: 480px){
@@ -266,7 +265,6 @@ img.rss{float: none!important; border: none!important; padding: 0px!important; m
 	#content.sub h2 {margin-top: -20px!important;}
 	#main h1 {font-size: 47px!important;line-height: 70px!important;margin-top: 20px!important;}
 	#main h2 {font-size: 24px!important;line-height: 36px!important;}
-	.item.skedulr{margin-left: 75px;}
 }
 
 @media only screen and (min-width: 768px){
@@ -279,7 +277,6 @@ img.rss{float: none!important; border: none!important; padding: 0px!important; m
 	nav{display: block;}
 	footer ul li {margin-left: 5px;}
 	footer ul li a{padding: 3px 0px 0px 65px!important;}
-	.item.skedulr{margin-left: 180px;}
 }
 
 @media only screen and (min-width: 992px){
@@ -290,7 +287,6 @@ img.rss{float: none!important; border: none!important; padding: 0px!important; m
 	#social ul{margin-left: -1.6em;}
 	footer ul li {margin-left: 35px;}
 	footer ul li a{padding: 3px 0px 0px 75px;}
-	.item.skedulr{margin-left: 275px;}
 }
 
 @media only screen and (min-width: 1200px){
@@ -301,7 +297,6 @@ img.rss{float: none!important; border: none!important; padding: 0px!important; m
 	#social ul{margin-left: 2em;}
 	footer ul li {margin-left: 60px;}
 	.post img{width:99%;}
-	.item.skedulr{margin-left: 400px;}
 }
 
 @media print {

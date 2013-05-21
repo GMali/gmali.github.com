@@ -16,31 +16,10 @@ Given that this was my first time building an Android App, coding in Java for th
   <!-- Carousel items -->
   <div class="carousel-inner">
     <div class="active item skedulr">
-	    <img src="/img/posts/Skedulr_login.png" alt="">
+	    <img src="/img/posts/Skedulr_1.png" alt="Skedulr">
     </div>
     <div class="item skedulr">
-	    <img src="/img/posts/Skedulr_auth.png" alt="">
-	</div>
-    <div class="item skedulr">
-	    <img src="/img/posts/Skedulr_home.png" alt="">
-	</div>
-    <div class="item skedulr">
-	    <img src="/img/posts/Skedulr_dpt.png" alt="">
-	</div>
-    <div class="item skedulr">
-	    <img src="/img/posts/Skedulr_course.png" alt="">
-	</div>
-    <div class="item skedulr">
-	    <img src="/img/posts/Skedulr_sec.png" alt="">
-	</div>
-    <div class="item skedulr">
-	    <img src="/img/posts/Skedulr_list.png" alt="">
-	</div>
-    <div class="item skedulr">
-	    <img src="/img/posts/Skedulr_list_selec.png" alt="">
-	</div>
-    <div class="item skedulr">
-	    <img src="/img/posts/Skedulr_save.png" alt="">
+	    <img src="/img/posts/Skedulr_2.png" alt="Skedulr">
 	</div>
   </div>
   <!-- Carousel nav -->
