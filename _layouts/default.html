@@ -65,6 +65,12 @@
       g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
       s.parentNode.insertBefore(g,s)}(document,"script"));
     </script>
+    
+    <!-- Big Picture Analytics -->
+    <script>    
+      !function(i,e,t,r){i.bigPicture=i.bigPicture||{},bigPicture.handler=function(i){if(void 0!==bigPicture.callback)try{return bigPicture.callback(i)}catch(i){}},bigPicture.getCookie=function(i){var t="; "+e.cookie,r=t.split("; "+i+"=");return 2==r.length?r.pop().split(";").shift():!1};var c=bigPicture.isEditor=function(){try{return i.self!==i.top&&(new RegExp("app"+t,"ig").test(e.referrer)||"edit"==bigPicture.getCookie("_bpr_edit"))}catch(r){return!1}}();bigPicture.init=function(n){this.projectId=n;var u=c?"/editor/editor":"/public-"+n;if(!c)for(var o=0;o<r.length;o++)i.addEventListener(r[o],bigPicture.handler,!0);var a=e.createElement("script");a.src="//cdn"+t+u+".js",e.getElementsByTagName("head")[0].appendChild(a)}}(window,document,".thebigpicture.io",["mousedown","mouseup","click","submit"]),bigPicture.init("27");
+    </script>
+    <!-- End Big Picture Analytics -->
 
     <script src="//static.getclicky.com/js" type="text/javascript"></script>
     <script type="text/javascript">try{ clicky.init(66486675); }catch(e){}</script>
